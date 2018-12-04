@@ -1,12 +1,5 @@
 # Node - Desafio 1
 
-![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/badges/shields.svg)
-![GitHub language count](https://img.shields.io/github/languages/count/badges/shields.svg)
-![David](https://img.shields.io/david/osvaldokalvaitir/node-desafio1.svg)
-
 Nesse desafio vamos construir uma aplicação que aceita a entrada de um campo do usuário por um formulário e o redireciona para a página correta baseado em sua idade.
 
 Configure uma aplicação utilizando **ExpressJS, Nunjucks, EditorConfig e ESLint**.
