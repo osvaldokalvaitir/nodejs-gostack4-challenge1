@@ -8,7 +8,7 @@ Nesse desafio vamos construir uma aplicação que aceita a entrada de um campo d
 
 Configure uma aplicação utilizando **ExpressJS, Nunjucks, EditorConfig e ESLint**.
 
-### Rotas
+### Rotas (Desafio)
 
 - `/`: Rota inicial que renderiza uma página com um formulário com um único campo `age` que representa a idade do usuário;
 - `/check`: Rota chamada pelo formulário da página inicial via método POST que checa se a idade do usuário é maior que 18 e o redireciona para a rota `/major`, caso contrário o redireciona para a rota `/minor` (Lembre de enviar a idade como Query Param no redirecionamento);
