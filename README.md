@@ -19,10 +19,6 @@ Configure uma aplicação utilizando **ExpressJS, Nunjucks, EditorConfig e ESLin
 
 Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se a informação de idade não está presente nos Query Params. Se essa informação não existir deve redirecionar o usuário para a página inicial com o formulário, caso contrário o middleware deve apenas continuar com o fluxo normal.
 
-## Resumo
-
-Esta aplicação foi desenvolvida para realizar a checagem de idade informada pelo usuário.
-
 ## Índice
 
 - [Telas](#telas)
@@ -32,6 +28,8 @@ Esta aplicação foi desenvolvida para realizar a checagem de idade informada pe
   - [Maior](#major)
 
   - [Minor](#minor)
+  
+- [Rotas](#rotas)  
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -59,6 +57,13 @@ Esta tela aparecerá se a idade informada for maior que 18 anos.
 
 ![Screenshoot Minor](https://github.com/osvaldokalvaitir/node-desafio1/blob/master/screenshots/Minor.png)
 Esta tela aparecerá se a idade informada for menor ou igual à 18 anos.
+
+## Rotas
+
+- Tela principal
+- Checagem de idade informada pelo usuário
+- Usuário maior de idade
+- Usuário menor de idade
 
 ## Desenvolvimento
 
