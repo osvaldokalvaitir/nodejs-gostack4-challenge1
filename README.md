@@ -1,4 +1,4 @@
-﻿# Node - Desafio 1
+# Node - Desafio 1
 
 Aplicação usando Node.js, Express, Nunjucks, EditorConfig e ESLint.
 
