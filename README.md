@@ -1,4 +1,4 @@
-# Node - Desafio 1
+﻿# Node - Desafio 1
 
 Aplicação usando Node.js, Express, Nunjucks, EditorConfig e ESLint.
 
@@ -45,17 +45,17 @@ Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se
 
 ### Principal
 
-![Main](https://github.com/osvaldokalvaitir/node-desafio1/blob/master/assets/Main.png)
+![Main](/assets/main.png)
 Esta é a tela principal onde o usuário informa a idade para a checagem.
 
 ### Maior
 
-![Major](https://github.com/osvaldokalvaitir/node-desafio1/blob/master/assets/Major.png)
+![Major](/assets/major.png)
 Esta tela aparecerá se a idade informada for maior que 18 anos.
 
 ### Menor
 
-![Minor](https://github.com/osvaldokalvaitir/node-desafio1/blob/master/assets/Minor.png)
+![Minor](/assets/minor.png)
 Esta tela aparecerá se a idade informada for menor ou igual à 18 anos.
 
 ## Rotas
