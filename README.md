@@ -1,4 +1,4 @@
-﻿# Node - Desafio 1
+# Node - Desafio 1
 
 Aplicação usando Node.js, Express, Nunjucks, EditorConfig e ESLint.
 
@@ -21,7 +21,7 @@ Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Principal](#main)
 
@@ -29,8 +29,6 @@ Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se
 
   - [Minor](#minor)
   
-- [Rotas](#rotas)  
-
 - [Desenvolvimento](#desenvolvimento)
 
   - [Configurações Iniciais](#configurações-iniciais)
@@ -39,9 +37,11 @@ Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
 
-## Telas
+## Capturas de Tela
 
 ### Principal
 
@@ -58,13 +58,6 @@ Esta tela aparecerá se a idade informada for maior que 18 anos.
 ![Minor](/assets/minor.png)
 Esta tela aparecerá se a idade informada for menor ou igual à 18 anos.
 
-## Rotas
-
-- Tela principal
-- Checagem de idade informada pelo usuário
-- Usuário maior de idade
-- Usuário menor de idade
-
 ## Desenvolvimento
 
 ### Configurações Iniciais
@@ -78,6 +71,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Execução de Projeto.
+
+## Utilizados no Projeto
 
 ### Bibliotecas
 
