@@ -38,7 +38,7 @@ Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se
   - [Maior](#major)
 
   - [Minor](#minor)
-  
+
 - [Desenvolvimento](#desenvolvimento)
 
   - [Configuração do Ambiente](#configuração-do-ambiente)
@@ -55,17 +55,17 @@ Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Esta é a tela principal onde o usuário informa a idade para a checagem.
 
 ### Maior
 
-![Major](/assets/major.png)
+![Major](/.github/assets/major.png)
 Esta tela aparecerá se a idade informada for maior que 18 anos.
 
 ### Menor
 
-![Minor](/assets/minor.png)
+![Minor](/.github/assets/minor.png)
 Esta tela aparecerá se a idade informada for menor ou igual à 18 anos.
 
 ## Desenvolvimento
