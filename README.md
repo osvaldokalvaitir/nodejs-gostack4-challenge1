@@ -1,4 +1,4 @@
-# Node - Desafio 1
+# Node.js - Desafio 1
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/node-desafio1/blob/master/LICENSE)
 ![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/node-desafio1.svg)
