@@ -1,14 +1,14 @@
 {
-  "name": "node-desafio1",
+  "name": "nodejs-desafio1",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/osvaldokalvaitir/node-desafio1.git",
+  "repository": "https://github.com/osvaldokalvaitir/nodejs-desafio1.git",
   "author": "osvaldokalvaitir <osvaldokalvaitir@outlook.com>",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
-  },  
+  },
   "dependencies": {
     "express": "^4.16.4",
     "nunjucks": "^3.1.4"
