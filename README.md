@@ -1,95 +1,65 @@
-# Node.js - Desafio 1
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/nodejs-desafio1/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/nodejs-desafio1.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/nodejs-desafio1.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-desafio1.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-desafio1.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/nodejs-desafio1.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/nodejs-desafio1.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  Node.js - GoStack 4 Challenge 1
+</h3>
 
-Aplicação usando Node.js, Express, Nunjucks, EditorConfig e ESLint.
+<p align="center">
+  :man: Application using Node.js, Express, Nunjucks, EditorConfig and ESLint
+</p>
 
-## Desafio
+<p align="center">
+  :muscle: Click <a href="/.github/docs/challenge.md">here</a> to see the challenge description
+</p>
 
-Nesse desafio vamos construir uma aplicação que aceita a entrada de um campo do usuário por um formulário e o redireciona para a página correta baseado em sua idade.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-gostack4-challenge1.svg?color=00A83A">
 
-Configure uma aplicação utilizando **ExpressJS, Nunjucks, EditorConfig e ESLint**.
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-gostack4-challenge1.svg?color=00A83A">
 
-### Rotas (Desafio)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-- `/`: Rota inicial que renderiza uma página com um formulário com um único campo `age` que representa a idade do usuário;
-- `/check`: Rota chamada pelo formulário da página inicial via método POST que checa se a idade do usuário é maior que 18 e o redireciona para a rota `/major`, caso contrário o redireciona para a rota `/minor` (Lembre de enviar a idade como Query Param no redirecionamento);
-- `/major`: Rota que renderiza uma página com o texto: `Você é maior de idade e possui x anos`, onde `x` deve ser o valor informado no input do formulário;
-- `/minor`: Rota que renderiza uma página com o texto: `Você é menor de idade e possui x anos`, onde `x` deve ser o valor informado no input do formulário;
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-### Middlewares
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-Deve haver um middleware que é chamado nas rotas `/major` e `/minor` e checa se a informação de idade não está presente nos Query Params. Se essa informação não existir deve redirecionar o usuário para a página inicial com o formulário, caso contrário o middleware deve apenas continuar com o fluxo normal.
+## :computer: Demo
 
-## Índice
+![Demo](/.github/assets/demo.png)
 
-- [Capturas de Tela](#capturas-de-tela)
+## :wrench: Install and run
 
-  - [Principal](#main)
+Open terminal:
 
-  - [Maior](#major)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/nodejs-gostack4-challenge1
 
-  - [Minor](#minor)
+# Entry in folder
+cd nodejs-gostack4-challenge1
 
-- [Desenvolvimento](#desenvolvimento)
+# Install deps with npm or yarn
+npm install | yarn
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+# Launch the app with npm or yarn
+npm dev | yarn dev
+```
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+## :memo: License
 
-  - [Execução do Projeto](#execução-do-projeto)
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+---
 
-  - [Bibliotecas](#bibliotecas)
-
-## Capturas de Tela
-
-### Principal
-
-![Main](/.github/assets/main.png)
-Esta é a tela principal onde o usuário informa a idade para a checagem.
-
-### Maior
-
-![Major](/.github/assets/major.png)
-Esta tela aparecerá se a idade informada for maior que 18 anos.
-
-### Menor
-
-![Minor](/.github/assets/minor.png)
-Esta tela aparecerá se a idade informada for menor ou igual à 18 anos.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Execução de Projeto para Desenvolvimento` ou `Execução de Projeto para Produção`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
-
-- [Express](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express.md)
-
-- [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
-
-- [Nunjucks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nunjucks.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
