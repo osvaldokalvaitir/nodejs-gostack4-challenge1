@@ -34,7 +34,7 @@
 
 ## :computer: Demo
 
-![Demo](/.github/assets/demo.png)
+![Demo](/.github/assets/demo.gif)
 
 ## :wrench: Install and run
 
