@@ -51,7 +51,7 @@ cd nodejs-gostack4-challenge1
 npm install | yarn
 
 # Launch the app with npm or yarn
-npm dev | yarn dev
+npm run dev | yarn dev
 ```
 
 ## :memo: License
